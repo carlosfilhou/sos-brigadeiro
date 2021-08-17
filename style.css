@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	font-size: 1vw;
+	font-family: serif;
+}
+.header{
+	background: #d24f68;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+.logo{
+	width: 4%;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.logotexto{
+	position: absolute;
+	width: 20%;	
+	margin-left: 10px;
+	margin-top: 20px;
+}
+h1{
+	font-family: helveticaneue, serif;
+	line-height: 80px;
+	font-size: 2.5vw;
+	display: inline-block;
+	margin: 0;
+	padding-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.menu{
+	float: right;
+	display: inline-block;
+	font-size: 1.2vw;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	line-height: 85px;
+}
+.links:hover{
+	color: #783416;
+}
+ul{
+	position: absolute;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	margin-right: 25px;
+}
+.cardapio{
+	margin: 30px;
+	width: 45%;
+}
+.contato{
+	text-align: center;
+	font-size: 1.2vw;
+}
+.footer{
+	font-size: 0.8vw;
+    bottom: 0;
+    background-color: #783416;
+    color: white;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+@media screen and (max-width: 600px){
+	
+	.cardapio{
+		width: 75%;
+	}
+	.logotexto{
+		margin-top: 30px;
+	}
+	.logo{
+		margin-top: 28px;
+	}
+}
