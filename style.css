@@ -72,7 +72,7 @@ li{
     text-align: center;
     line-height: 100px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 950px){
 	
 	.cardapio{
 		width: 75%;
