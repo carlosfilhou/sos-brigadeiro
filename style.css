@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap');
+
 body{
 	margin: 0;
-	font-size: 1vw;
-	font-family: serif;
+	font-family: Roboto, sans-serif;
+	align-items: center;
+	justify-content: center;
+	background: seashell;
 }
 .header{
 	background: #d24f68;
@@ -71,8 +75,9 @@ li{
     height: 100px;    
     text-align: center;
     line-height: 100px;
+	display: inline-block;
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1125px){
 	
 	.cardapio{
 		width: 75%;
