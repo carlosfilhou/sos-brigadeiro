@@ -97,11 +97,14 @@ section.sobre{
     cursor: pointer;
 }
 .direitos{
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
 	position: relative;
-	text-align: center;
 	top: 40px;
 }
 .direitos p{
 	font-size: 10px;
-	color: rgb(150, 150, 150);
+	color: rgb(126, 126, 126);
 }
