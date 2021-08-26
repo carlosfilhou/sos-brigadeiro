@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap');
 
 body{
+	background-color: rgb(255, 227, 208);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +20,9 @@ html,body{
     padding: 0 2%;
 }
 header{
+	background-color: white;
     padding: 20px 0;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.329);
 }
 .logo{
     width: 50%;
