@@ -93,3 +93,12 @@ section.sobre{
     height: 30px;
     cursor: pointer;
 }
+.direitos{
+	position: relative;
+	text-align: center;
+	top: 40px;
+}
+.direitos p{
+	font-size: 10px;
+	color: rgb(150, 150, 150);
+}
