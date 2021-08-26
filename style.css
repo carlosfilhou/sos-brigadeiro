@@ -1,91 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap');
 
 body{
-	margin: 0;
-	font-family: Roboto, sans-serif;
-	align-items: center;
-	justify-content: center;
-	background: seashell;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
 }
-.header{
-	background: #d24f68;
-	width: 100%;
-	height: 80px;
-	position: relative;
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    padding: 20px 0;
 }
 .logo{
-	width: 4%;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-.logotexto{
-	position: absolute;
-	width: 20%;	
-	margin-left: 10px;
-	margin-top: 20px;
-}
-h1{
-	font-family: helveticaneue, serif;
-	line-height: 80px;
-	font-size: 2.5vw;
-	display: inline-block;
-	margin: 0;
-	padding-left: 20px;
-}
-a{
-	text-decoration: none;
-	color: white;
+    width: 50%;
 }
 .menu{
-	float: right;
-	display: inline-block;
-	font-size: 1.2vw;
-	text-decoration: none;
-	list-style: none;
-	color: white;
-	line-height: 85px;
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
 }
-.links:hover{
-	color: #783416;
+section.sobre{
+    height: calc(100% - 50px);
+    position: relative;
 }
-ul{
-	position: absolute;
-	right: 10px;
-	margin: 0;
-	padding: 0;
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 970px;
+    height: 950px;
+    border-radius: 50%;
+    background-color: #d24f68;
 }
-li{
-	display: inline-block;
-	margin-right: 25px;
+.imginicio1{
+    position: relative;
+    bottom: -160px;
+    width: 200px;
+    border-radius: 40%;
+    box-shadow: 20px 20px 50px -30px black;
 }
-.cardapio{
-	margin: 30px;
-	width: 45%;
+.imginicio2{
+    position: relative;
+    bottom: 30px;
+    width: 200px;
+    border-radius: 40%;
+    box-shadow: 20px 20px 50px -30px black;
 }
-.contato{
-	text-align: center;
-	font-size: 1.2vw;
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
 }
-.footer{
-	font-size: 0.8vw;
-    bottom: 0;
-    background-color: #783416;
+.texto-sobre{
+    margin-top: 50px;
+}
+.texto-sobre h1{
+    font-size: 40px;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: #d24f68;
     color: white;
-    width: 100%;
-    height: 100px;    
-    text-align: center;
-    line-height: 100px;
-	display: inline-block;
-}
-@media screen and (max-width: 1125px){
-	
-	.cardapio{
-		width: 75%;
-	}
-	.logotexto{
-		margin-top: 30px;
-	}
-	.logo{
-		margin-top: 28px;
-	}
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
 }
