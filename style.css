@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap');
 
 body{
-	background-color: rgb(255, 227, 208);
+	background-color: rgb(253, 230, 213);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -97,14 +97,17 @@ section.sobre{
     cursor: pointer;
 }
 .direitos{
+	position: relative;
 	display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
     margin: 0 auto;
-	position: relative;
-	top: 40px;
+    padding: 0 2%;
+	top: 30px;
 }
 .direitos p{
+	margin: 20px 0;
+	max-width: 600px;
 	font-size: 10px;
 	color: rgb(126, 126, 126);
 }
