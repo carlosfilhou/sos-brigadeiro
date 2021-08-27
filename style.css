@@ -160,4 +160,22 @@ ul{
 		left: 0;
 		position: relative;
 	}
+	.texto-sobre h1{
+		font-size: 30px;
+	}
+}
+@media (max-width: 1069px){
+	.extras{
+		width: 88%;
+	}
+}
+@media (max-width: 1001px){
+	.extras{
+		display: none;
+	}
+}
+@media (max-width: 358px){
+	.texto-sobre h1{
+		font-size: 20px;
+	}
 }
