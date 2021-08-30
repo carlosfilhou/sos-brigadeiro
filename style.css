@@ -12,8 +12,15 @@ html,body{
     overflow-y: hidden;
     overflow-x: hidden;
 }
-.center{
+.centerindex{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.centercardapio{
+    display: -webkit-box;
     flex-wrap: wrap;
     max-width: 1100px;
     margin: 0 auto;
@@ -39,7 +46,16 @@ section.sobre{
     height: calc(100% - 50px);
     position: relative;
 }
-.extras{
+.extrasindex{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 970px;
+    height: 950px;
+    border-radius: 50%;
+    background-color: #d24f68;
+}
+.extrascardapio{
     position: absolute;
     bottom: -450px;
     right: -500px;
@@ -56,6 +72,20 @@ section.sobre{
     box-shadow: 20px 20px 50px -30px black;
 }
 .imginicio2{
+    position: relative;
+    bottom: 30px;
+    width: 200px;
+    border-radius: 40%;
+    box-shadow: 20px 20px 50px -30px black;
+}
+.imginicio1cardapio{
+    position: relative;
+    bottom: -160px;
+    width: 200px;
+    border-radius: 40%;
+    box-shadow: 20px 20px 50px -30px black;
+}
+.imginicio2cardapio{
     position: relative;
     bottom: 30px;
     width: 200px;
@@ -128,6 +158,10 @@ section.sobre{
 ul{
 	margin: 0;
 	padding: 0;
+}
+.imgcardapio{
+	width: 550px;
+	margin-top: 20px;
 }
 @media (max-width: 952px){
 	.logo a img{
