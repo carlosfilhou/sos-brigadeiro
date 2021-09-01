@@ -33,19 +33,20 @@ html,body{
     padding: 0 2%;
 }
 .centercardapio h2{
+    font-size: 18px;
     margin-top: 30px;
     margin-left: 15px;
-    margin-right: 10px;
+    margin-right: 1px;
     display: inline-block;
 }
 .centercardapio a h3{
+    font-size: 14px;
     margin-left: 10px;
-    margin-top: 30px;
-    margin-right: 3px;
+    margin-top: 10px;
     background: #d24f68;
     color: black;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
     display: inline-block;
 }
 .centercardapio img{
@@ -142,6 +143,7 @@ section.sobre{
     width: 100px;
     height: 30px;
     cursor: pointer;
+    font-family: roboto;
 }
 .direitos{
 	position: relative;
