@@ -25,6 +25,99 @@ html,body{
 .links:hover{
 	color: white;
 }
+.sobre-contato{
+    margin-top: 50px;
+    text-align: center;
+}
+.email-box{
+    max-width: 300px;
+    display: inline-block;
+}
+.email-contato{
+    text-align: center;
+}
+.email-contato a{
+    text-decoration: none;
+    color: black;
+}
+.email-contato img{
+    width: 9%;
+}
+.email-contato h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.email-contato p{
+    font-size: 15px;
+}
+.whatsapp-box{
+    max-width: 300px;
+    display: inline-block;
+}
+.whatsapp-contato{
+    text-align: center;
+}
+.whatsapp-contato a{
+    text-decoration: none;
+    color: black;
+}
+.whatsapp-contato img{
+    width: 9%;
+}
+.whatsapp-contato h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.whatsapp-contato p{
+    font-size: 15px;
+}
+.insta-box{
+    max-width: 300px;
+    display: inline-block;
+}
+.insta-contato{
+    text-align: center;
+}
+.insta-contato a{
+    text-decoration: none;
+    color: black;
+}
+.insta-contato img{
+    width: 8%;
+}
+.insta-contato h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.insta-contato p{
+    font-size: 15px;
+}
+.local-box{
+    margin-top: 40px;
+    max-width: 300px;
+    display: inline-block;
+}
+.local-contato{
+    text-align: center;
+}
+.local-contato a{
+    text-decoration: none;
+    color: black;
+}
+.local-contato img{
+    width: 8%;
+}
+.local-contato h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.local-contato p{
+    font-size: 15px;
+}
 .centercardapio{
     display: -webkit-box;
     flex-wrap: wrap;
@@ -34,7 +127,7 @@ html,body{
 }
 .centercardapio h2{
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 15px;
     margin-right: 1px;
     display: inline-block;
@@ -42,7 +135,6 @@ html,body{
 .centercardapio a h3{
     font-size: 14px;
     margin-left: 10px;
-    margin-top: 10px;
     background: #d24f68;
     color: black;
     border-radius: 10px;
@@ -136,7 +228,7 @@ section.sobre{
 }
 .texto-sobre button{
     border: 0;
-    background-color: #d24f68;
+    background-color: #d24f68;    
     font-weight: bold;
     color: black;
     border-radius: 10px;
@@ -155,6 +247,17 @@ section.sobre{
 	top: 30px;
 }
 .direitos p{
+	margin: 20px 0;
+	max-width: 600px;
+	font-size: 10px;
+	color: rgb(126, 126, 126);
+}
+.direitos-contato{
+    text-align: -webkit-center;
+	position: relative;
+	top: 3px;
+}
+.direitos-contato p{
 	margin: 20px 0;
 	max-width: 600px;
 	font-size: 10px;
