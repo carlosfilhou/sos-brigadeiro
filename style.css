@@ -213,6 +213,19 @@ section.sobre{
     font-weight: bold;
     margin-right: 15px;
 }
+.texto-quemsomos{
+    margin-top: 15px;
+}
+.texto-quemsomos h1{
+    font-size: 40px;
+}
+.texto-quemsomos p{
+    margin: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+}
 .texto-sobre{
     margin-top: 50px;
 }
@@ -252,6 +265,21 @@ section.sobre{
 	font-size: 10px;
 	color: rgb(126, 126, 126);
 }
+.direitos-quemsomos{
+	position: relative;
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+	top: 30px;
+}
+.direitos-quemsomos p{
+	margin: 0;
+	max-width: 600px;
+	font-size: 10px;
+	color: rgb(126, 126, 126);
+}
 .direitos-contato{
     text-align: -webkit-center;
 	position: relative;
@@ -287,7 +315,10 @@ ul{
 	}
 }
 @media (max-width: 858px){
-	.checkbtn{
+	.texto-quemsomos p{
+        font-size: 13px;
+    }
+    .checkbtn{
 		display: block;
 	}
 	.menu{
