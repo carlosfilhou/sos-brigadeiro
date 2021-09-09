@@ -341,8 +341,11 @@ ul{
 		position: relative;
 	}
 	.texto-sobre h1{
-		font-size: 30px;
+		font-size: 20px;
 	}
+    .texto-quemsomos h1{
+        font-size: 20px;
+    }
     .centercardapio img{
         width: 95%;
     }
