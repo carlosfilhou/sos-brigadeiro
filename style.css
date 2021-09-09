@@ -354,6 +354,9 @@ ul{
     .texto-quemsomos p{
         font-size: 10px;
     }
+    .texto-sobre p{
+        font-size: 12px;
+    }
 }
 @media (max-width: 1069px){
 	.extrasindex{
