@@ -346,11 +346,13 @@ ul{
     .texto-quemsomos h1{
         font-size: 20px;
     }
-    .texto-quemsomos p{
-        font-size: 12px;
-    }
     .centercardapio img{
         width: 95%;
+    }
+}
+@media (max-width: 680px){
+    .texto-quemsomos p{
+        font-size: 10px;
     }
 }
 @media (max-width: 1069px){
