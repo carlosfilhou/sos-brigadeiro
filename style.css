@@ -123,7 +123,9 @@ html,body{
     flex-wrap: wrap;
     max-width: 1100px;
     margin: 0 auto;
+    margin-top: 30px;
     padding: 0 2%;
+    text-align: center;
 }
 .centercardapio h2{
     font-size: 18px;
@@ -142,9 +144,8 @@ html,body{
     display: inline-block;
 }
 .centercardapio img{
-	width: 95%;
+	width: 55%;
 	margin-top: 20px;
-    margin-right: 20px;
 }
 header{
 	background-color: white;
