@@ -12,6 +12,9 @@ html,body{
     overflow-y: hidden;
     overflow-x: hidden;
 }
+.sobre{
+    margin-top: 25px;
+}
 .centerindex{
     display: flex;
     flex-wrap: wrap;
@@ -169,40 +172,24 @@ section.sobre{
 }
 .extrasindex{
     position: absolute;
-    bottom: -450px;
-    right: -500px;
-    width: 970px;
-    height: 950px;
-    border-radius: 50%;
-    background-color: #d24f68;
-}
-.extrascardapio{
-    position: absolute;
-    bottom: -450px;
-    right: -500px;
-    width: 970px;
-    height: 950px;
-    border-radius: 50%;
+    right: 130px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
     background-color: #d24f68;
 }
 .imginicio1{
     position: relative;
-    bottom: -160px;
-    width: 200px;
-    border-radius: 40%;
-    box-shadow: 20px 20px 50px -30px black;
-}
-.imginicio2{
-    position: relative;
-    bottom: 30px;
-    width: 200px;
+    right: -25px;
+    bottom: 60px;
+    width: 150px;
     border-radius: 40%;
     box-shadow: 20px 20px 50px -30px black;
 }
 .social-media{
 	position: relative;
-	left: 280px;
-	top: 50px;
+	left: 55px;
 }
 .social-media img{
 	width: 20px;
@@ -266,6 +253,17 @@ section.sobre{
 	font-size: 10px;
 	color: rgb(126, 126, 126);
 }
+.direitos-cardapio{
+	text-align: -webkit-center;
+	position: relative;
+    display: flow-root;
+}
+.direitos-cardapio p{
+	margin: 20px 0;
+	max-width: 600px;
+	font-size: 10px;
+	color: rgb(126, 126, 126);
+}
 .direitos-quemsomos{
 	position: relative;
 	display: flex;
@@ -313,7 +311,10 @@ ul{
 	}
 	.menu a{
 		font-size: 16px;
-	}
+	}    
+    .extrasindex{
+        display: none;
+    }
 }
 @media (max-width: 858px){
 	.texto-quemsomos p{
@@ -360,20 +361,8 @@ ul{
     }
 }
 @media (max-width: 1069px){
-	.extrasindex{
-		width: 88%;
-	}
-    .extrascardapio{
-		width: 88%;
-	}
 }
 @media (max-width: 1001px){
-	.extrasindex{
-		display: none;
-	}
-    .extrascardapio{
-		display: none;
-	}
 }
 @media (max-width: 358px){
 	.texto-sobre h1{

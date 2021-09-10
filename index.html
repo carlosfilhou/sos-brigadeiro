@@ -2,12 +2,26 @@
     <html>
         <head>
             <meta charset="utf-8">
-            <link href="style.css" rel="stylesheet">
             <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <link href="style.css" rel="stylesheet">
+            <link rel="stylesheet" href="css/owl.carousel.min.css">
+	        <link rel="stylesheet" href="css/owl.theme.default.min.css">
             <link rel="sortcut icon" href="imgsos/logosos.png" type="image/png" />
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+            <script type="text/javascript" src="js/instafeed.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+	        <script src="js/owl.carousel.min.js"></script>
+
+            <style>
+                html,body{
+                    overflow-y: visible;
+                }
+            </style>
+
             <title>S.O.S Brigadeiro</title><!--Título-->
         </head>
+
         <body>
             <header>
                 <div class="centerindex">
@@ -24,20 +38,48 @@
                     </nav><!--Menu-->
                 </div><!--Center-->
             </header><!--Cabeçalho-->
-
             
 			<section class="sobre">
-                <div class="extrasindex">
-                    <img class="imginicio1" src="imgsos/Brigs4.jpg" alt="sosbrigadeiro">
-                    <img class="imginicio2" src="imgsos/Brigs1.jpg" alt="sosbrigadeiro">
-					
-					<div class="social-media">
-						<a href="https://www.instagram.com/sos.brigadeiro/"><img style="margin-right: 15px;" src="imgsos/instagram.png" alt="instagram Sos Brigadeiro"></a>
-						<a href="https://api.whatsapp.com/send/?phone=5548991019616&text&app_absent=0"><img style="margin-right: 15px;" src="imgsos/whatsapp.png" alt="whatsapp Sos Brigadeiro"></a>
-						<a href="https://linktr.ee/sos.brigadeiro"><img src="imgsos/linktree.png" alt="Linktree Sos Brigadeiro"></a>
-						<h5 style="margin-left: 1px; margin-top: 10px;">Encomendas <br> Via Whatsapp</h5>
-					</div>
-                </div>
+
+                <h1 style="text-align: center;" >#Instagram</h1>
+
+                <div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
+
+                <script type="text/javascript">
+                    var feed = new Instafeed({
+                        accessToken: 'IGQVJVWVdkd1JHaEhGM3JrRjBiSWwxdS1lZAVRDUnczQkVfWUFfWjZANdlhGVjY5OEFISm1TS0k5U29WVXlpVjVGQUs0Nl82cWkwUVRROWN6UDMxY1ZAucEVRS0dZAOVdSbXZAtSGxSUEVWalFUTElRUi1QdQZDZD',
+                        limit: 8,
+                        template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+
+                        after: function(){
+
+                            $('.owl-carousel').owlCarousel({
+                                loop:true,
+                                margin:10,
+                                nav:false,
+                                responsiveClass:true,
+                                responsive:{
+                                    0:{
+                                        items:1
+                                        
+                                    },
+                                    600:{
+                                        items:3
+                                        
+                                    },
+                                    1000:{
+                                        items:5,							
+                                        loop:false
+                                    }
+                                }
+                            });
+                        }
+                    });
+
+
+                    feed.run();
+
+                </script>
                 
                 <div class="centerindex">
                     <div class="texto-sobre">
@@ -45,7 +87,18 @@
                         <p>A SOS Brigadeiro nasceu em Julho de 2016, como uma brincadeira entre irmãs e logo no seu primeiro ano de funcionamento, foi um sucesso absoluto! Isso permitiu que a gente se apaixonasse cada vez mais pela confeitaria. Atuando no mercado à 5 anos, a SOS é muito mais do que uma empresa de produção e vendas de doces. É uma empresa de sonhos e expectativas. Vendemos para você um momento de alegria!</p>
                         <a href="quemsomos.html"><button class="links" >Saiba Mais</button></a>
                     </div><!--Texto sobre a empresa-->
-                </div><!--Extras-->
+
+                    <div class="extrasindex">
+                        <img class="imginicio1" src="imgsos/Brigs1.jpg" alt="sosbrigadeiro">
+                        
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/sos.brigadeiro/"><img style="margin-right: 15px;" src="imgsos/instagram.png" alt="instagram Sos Brigadeiro"></a>
+                            <a href="https://api.whatsapp.com/send/?phone=5548991019616&text&app_absent=0"><img style="margin-right: 15px;" src="imgsos/whatsapp.png" alt="whatsapp Sos Brigadeiro"></a>
+                            <a href="https://linktr.ee/sos.brigadeiro"><img src="imgsos/linktree.png" alt="Linktree Sos Brigadeiro"></a>
+                            <h5 style="margin-left: 1px; margin-top: 10px;">Encomendas <br> Via Whatsapp</h5>
+                        </div>
+                    </div>
+                </div><!--center index-->
 				
 				<div class="direitos">
 					<p>S.O.S Brigadeiro - CNPJ: 42.587.817/0001-58 © Todos os direitos reservados. 2021</p>
