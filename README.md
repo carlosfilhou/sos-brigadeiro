@@ -2,14 +2,13 @@
 
 <div style="text-align: center;">
 
-(PROJETO FINALIZADO)
-
 Aqui crio meu primeiro site para uma empresa de doces.
 
 I am creating my first project for a company.
 
-📷 Veja:
-</div>
+<br>
+
+<h1>📷 Veja:</h1>
 
 <br>
 
