@@ -6,6 +6,7 @@ Aqui crio meu primeiro site para uma empresa de doces.
 
 I am creating my first project for a company.
 
+Meu maior desafio com esse projeto foi adicionar um carrossel que atualiza automaticamente com o instagram.
 <br>
 
 <h1>📷 Veja:</h1>

@@ -159,7 +159,7 @@ header{
     width: 50%;
 }
 .logo img{
-	width: 80px;
+	width: 85px;
 }
 .menu{
     padding-top: 30px;
@@ -202,7 +202,7 @@ section.sobre{
     margin-right: 15px;
 }
 .texto-quemsomos{
-    margin-top: 15px;
+    margin-top: -20px;
 }
 .texto-quemsomos h1{
     font-size: 40px;
@@ -210,7 +210,7 @@ section.sobre{
 .texto-quemsomos p{
     margin: 0;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     max-width: 600px;
 }
@@ -223,7 +223,7 @@ section.sobre{
 .texto-sobre p{
     margin: 20px 0;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     max-width: 600px;
 }
