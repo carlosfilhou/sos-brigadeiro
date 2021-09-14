@@ -1,23 +1,67 @@
-<h1>S.O.S Brigadeiro</h1>
+<h3 align="center">
+    <img width="200px" src="imgsos/logosos.png">
+    <br><br>
+</h3>
 
-Aqui crio meu primeiro site, para uma empresa de doces.
+## 🔖 Informaçoes sobre a S.O.S Brigadeiro <br/>
 
-I am creating my first project for a company.
+A <strong>SOS</strong> é uma empresa de produção de doces. <br><br>
 
-O maior diferencial, foi adicionar um carrossel que atualiza automaticamente com a rede social.
-<br>
+## 🖼 Screenshot das telas do site <br/>
 
-<h1>📷 Veja:</h1>
+<img src="github/webfrontvideo.gif"><br><br>
+<img src="github/webfrontvideo2.gif"><br><br>
+<img src="github/webfrontvideo3.gif">
+<br/><br>
 
-<br>
-<h2>Front-end</h2><br>
-<a href="https://sosbrigadeiro.netlify.app/"><img src="github/webfrontvideo.gif"></a><br><br>
-<a href="https://sosbrigadeiro.netlify.app/"><img src="github/webfrontvideo2.gif"></a><br><br>
-<a href="https://sosbrigadeiro.netlify.app/"><img src="github/webfrontvideo3.gif"></a><br><br>
+## 🚀 Tecnologias utilizadas <br/>
+<br/>
 
-### Pré-requisitos antes de baixar
-<br>
+- HTML <br/>
+- CSS <br/>
+<br/>
+
+## 👨‍💻 Skills Praticadas
+
+  - ✔️ CSS - Flexbox and Grid 
+  - ✔️ Layout Responsive
+<br><br><br>
+
+ # 👷 Como rodar
 
 ```bash
-Para dar manutenção neste site, são necessários conhecimentos em HTML e CSS.
+# Clonar o repositório
+git clone https://github.com/carlosfilhou/sos-brigadeiro
+
+# Entrar numa IDE de sua preferência 
+
+# Executar o servidor ou usar um puglin que criar um servidor
+
 ```
+
+
+## 🤔 Como contribuir <br/>
+
+- Faça um fork desse repositório; <br/>
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;<br/>
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`; <br/>
+- Faça push para a sua branch: `git push origin minha-feature`.<br/>
+<br/>
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch. <br/>
+
+
+## 🎓 Autores
+
+<table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/carlosfilhou">
+                <img src="https://cdn.discordapp.com/attachments/406160804308582403/878206737512030258/Webp.net-gifmaker.gif" width="150px;" alt="gif Carlos Filho" />
+                <br />
+            </a>
+        </td>    
+    </tr>
+</table>
+<h4 align="center">
+   by  <a href="https://www.linkedin.com/in/carlosfilhou/" target="_blank"> Carlos Filho </a>
+</h4>
