@@ -1,12 +1,10 @@
-<h1 style="text-align: center;" >S.O.S Brigadeiro</h1>
+<h1>S.O.S Brigadeiro</h1>
 
-<div style="text-align: center;">
-
-Aqui crio meu primeiro site para uma empresa de doces.
+Aqui crio meu primeiro site, para uma empresa de doces.
 
 I am creating my first project for a company.
 
-Meu maior desafio com esse projeto foi adicionar um carrossel que atualiza automaticamente com o instagram.
+O maior diferencial, foi adicionar um carrossel que atualiza automaticamente com a rede social.
 <br>
 
 <h1>📷 Veja:</h1>
