@@ -51,17 +51,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 
 ## 🎓 Autores
-
-<table align="center">
-    <tr>
-        <td align="center">
-            <a href="https://github.com/carlosfilhou">
-                <img src="https://cdn.discordapp.com/attachments/406160804308582403/878206737512030258/Webp.net-gifmaker.gif" width="150px;" alt="gif Carlos Filho" />
-                <br />
-            </a>
-        </td>    
-    </tr>
-</table>
-<h4 align="center">
+<br>
+<h4>
    by  <a href="https://www.linkedin.com/in/carlosfilhou/" target="_blank"> Carlos Filho </a>
 </h4>
