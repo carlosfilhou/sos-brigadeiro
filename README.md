@@ -6,7 +6,7 @@
 ## 🔖 Informaçoes sobre a S.O.S Brigadeiro <br/>
 
 A <strong>SOS</strong> é uma empresa de produção de doces. <br>
-Acesse: <a>www.sosbrigadeiro.com.br</a>
+Acesse: <a href="https://www.sosbrigadeiro.com.br/">www.sosbrigadeiro.com.br</a>
 <br>
 
 ## 🖼 Screenshot das telas do site <br/>
