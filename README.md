@@ -51,7 +51,6 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 
 ## 🎓 Autores
-<br>
 <h4>
    by  <a href="https://www.linkedin.com/in/carlosfilhou/" target="_blank"> Carlos Filho </a>
 </h4>
