@@ -8,7 +8,6 @@
 A <strong>SOS</strong> é uma empresa de produção de doces. <br>
 
 Acesse: <a href="https://sosbrigadeiro.netlify.app/">sosbrigadeiro.netlify.app</a>
-
 <br>
 
 ## 🖼 Screenshot das telas do site <br/>
