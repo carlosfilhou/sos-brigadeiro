@@ -22,12 +22,14 @@ Acesse: <a href="https://sosbrigadeiro.netlify.app/">sosbrigadeiro.netlify.app</
 
 - HTML <br/>
 - CSS <br/>
+- JAVASCRIPT <br/>
 <br/>
 
 ## 👨‍💻 Skills Praticadas
 
   - ✔️ CSS - Flexbox and Grid 
   - ✔️ Layout Responsive
+  - ✔️ UX design, UI / (User Experience, User Interface)
 <br><br><br>
 
  # 👷 Como rodar
